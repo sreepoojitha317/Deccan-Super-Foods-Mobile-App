@@ -1,0 +1,86 @@
+# =========================
+# Node / React Native
+# =========================
+
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# =========================
+# Expo
+# =========================
+
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# =========================
+# Native / Generated
+# =========================
+
+/ios
+/android
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# =========================
+# Metro
+# =========================
+
+.metro-health-check*
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+*.env
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# TypeScript
+# =========================
+
+*.tsbuildinfo
